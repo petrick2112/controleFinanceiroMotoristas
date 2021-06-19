@@ -123,7 +123,7 @@ class LancamentoHelper {
           },
           body: json.encode(map));
       if (response.statusCode != 200) {
-        throw 'Falha ao remover o condutor';
+        throw 'Falha ao remover o lancamento';
       }
     } catch (e) {
       throw e.toString();
